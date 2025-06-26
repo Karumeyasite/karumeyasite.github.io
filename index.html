@@ -6,15 +6,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
     <img src="images/logo_title.PNG" alt="meya©️Remix" class="logo">
   </header>
+
   <nav class="category-nav">
-  <button onclick="filterItems('all')">すべて</button>
-  <button onclick="filterItems('CoC')">CoC</button>
-  <button onclick="filterItems('創作企画')">創作企画</button>
-</nav>
-  
+    <button onclick="filterItems('all')">すべて</button>
+    <button onclick="filterItems('CoC')">CoC</button>
+    <button onclick="filterItems('創作企画')">創作企画</button>
+  </nav>
+
   <div class="gallery">
 
     <div class="item">
@@ -78,18 +80,21 @@
     </div>
 
   </div>
-    <script>
-  function filterItems(tag) {
-    const items = document.querySelectorAll('.item');
-    items.forEach(item => {
-      const tags = Array.from(item.querySelectorAll('.tag')).map(span => span.textContent);
-      if (tag === 'all' || tags.includes(tag)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
-    });
-  }
-    </script>
+
+  <!-- ✅ JavaScriptはbodyの最後に！ -->
+  <script>
+    function filterItems(tag) {
+      const items = document.querySelectorAll('.item');
+      items.forEach(item => {
+        const tags = Array.from(item.querySelectorAll('.tag')).map(span => span.textContent);
+        if (tag === 'all' || tags.includes(tag)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+  </script>
+
 </body>
 </html>
