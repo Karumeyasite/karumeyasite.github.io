@@ -1,49 +1,56 @@
 header {
-    text-align: center;
-    padding: 20px 0;
+  text-align: center;
+  padding: 20px 0;
 }
+
 .logo {
-    max-width: 300px;
-    height: auto;
+  max-width: 300px;
+  height: auto;
 }
+
 body {
-    font-family: 'Bebas Neue', sans-serif;
-    background-color: #f5f5f3;
-    color: #2f3210;
-    margin: 0;
-    padding: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #f5f5f3;
+  color: #2f3210;
+  margin: 0;
+  padding: 0;
 }
+
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
 }
+
 .item {
-    background-color: #ffffff;
-    border: 2px solid #a7ac6b;
-    border-radius: 8px;
-    padding: 10px;
-    width: 220px;
-    text-align: center;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+  background-color: #ffffff;
+  border: 2px solid #a7ac6b;
+  border-radius: 8px;
+  padding: 10px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
 }
+
 .item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
+
 .item p {
-    font-weight: bold;
-    margin: 10px 0 5px;
+  font-weight: bold;
+  margin: 10px 0 5px;
 }
+
 .tag {
-    display: inline-block;
-    background-color: #a7ac6b;
-    color: #fff;
-    border-radius: 4px;
-    padding: 2px 8px;
-    margin: 2px;
-    font-size: 12px;
+  display: inline-block;
+  background-color: #a7ac6b;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin: 2px;
+  font-size: 12px;
 }
