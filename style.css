@@ -11,12 +11,15 @@ header {
 }
 
 .logo {
-    max-width: 240px;  
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    filter: contrast(95%) brightness(0.97); 
+  max-width: 500px; /* PCサイズ */
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    max-width: 350px; /* スマホでやや大きめ */
+  }
 }
 
 body {
