@@ -5,6 +5,19 @@
   <title>meyaremix</title>
   <link rel="stylesheet" href="style.css">
 </head>
+  <script>
+  function filterItems(tag) {
+    const items = document.querySelectorAll('.item');
+    items.forEach(item => {
+      const tags = Array.from(item.querySelectorAll('.tag')).map(span => span.textContent);
+      if (tag === 'all' || tags.includes(tag)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+</script>
 <body>
   <header>
     <img src="images/logo_title.PNG" alt="meya©️Remix" class="logo">
