@@ -1,6 +1,43 @@
 body {
-    font-family: sans-serif;
-    background: #f8f8f8;
-    text-align: center;
-    padding: 50px;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 10px;
+  width: 260px;
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.item p {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #555;
+  border-radius: 3px;
+  padding: 2px 6px;
+  margin: 2px 4px;
+  font-size: 0.8em;
 }
