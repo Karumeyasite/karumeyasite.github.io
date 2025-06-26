@@ -1,1 +1,1 @@
-console.log('meyaremix site loaded');
+console.log("meyaremix site loaded!");
