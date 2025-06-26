@@ -1,0 +1,16 @@
+{
+  "id": "001",
+  "title": "ようこそ！迷冥市役所都市伝説課へ！",
+  "tags": [
+    "CoC",
+    "CS"
+  ],
+  "thumbnail": "images/coc_toshidensetsuka.jpg",
+  "full_image": "images/coc_toshidensetsuka.jpg",
+  "text_title": "ようこそ！迷冥市役所都市伝説課へ！",
+  "text_body": "ここに詳細なテキスト本文を記述します。",
+  "blur": false,
+  "password_protected": false,
+  "format": "standard",
+  "date": "2025-06-26"
+}
