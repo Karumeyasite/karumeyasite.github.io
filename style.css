@@ -74,3 +74,25 @@ body {
 .category-nav button:hover {
   background-color: #8d935d;
 }
+
+.subpage-link {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.subpage-link a {
+  color: #4d4f2f;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #e8ebd3;
+  padding: 8px 16px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.subpage-link a:hover {
+  background-color: #d5d9c0;
+}
