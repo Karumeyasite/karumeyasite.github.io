@@ -1,6 +1,7 @@
 fetch('kikaku_GRRK_data.json')
   .then(response => response.json())
   .then(data => {
+    // 数字順 → あいうえお順に並び替え
     data.sort((a, b) => {
       const regex = /(\d+)?(.*)/;
       const [, numA, textA] = a.title.match(regex);
@@ -17,7 +18,7 @@ fetch('kikaku_GRRK_data.json')
       div.className = 'item';
 
       const img = document.createElement('img');
-      img.src = `images/${item.filename}`;
+      img.src = `../images/${item.filename}`;
       img.alt = item.title;
 
       const p = document.createElement('p');
