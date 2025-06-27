@@ -116,3 +116,8 @@ body {
 .category-buttons button:hover {
   background-color: #8d935d;
 }
+
+/* 追加：タグ表示を中央寄せ */
+.item .tags {
+  text-align: center;
+}
