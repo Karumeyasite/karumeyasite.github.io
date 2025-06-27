@@ -96,3 +96,28 @@ body {
 .subpage-link a:hover {
   background-color: #d5d9c0;
 }
+
+.combined-nav {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.category-buttons {
+  margin-bottom: 10px;
+}
+
+.category-buttons button {
+  background-color: #a7ac6b;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.category-buttons button:hover {
+  background-color: #8d935d;
+}
